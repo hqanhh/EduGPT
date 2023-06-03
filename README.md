@@ -36,9 +36,9 @@ By leveraging the expertise of two AI agents and employing adaptive instruction 
 
 ## Installation
 
-Make sure your have a python 3.10+ and run:
+Make sure your have python 3.10+ and run this command to setup environment:
 
-`pip install -r requirements.txt`
+`make venv`
 
 Create `.env` file and put your Open AI Key there by specifying a line:
 
@@ -48,7 +48,7 @@ Create `.env` file and put your Open AI Key there by specifying a line:
 
 To get a feel for a conversation with the AI Instructor agent, you can run:
 
-`python run.py`
+`python src/run.py`
 
 from your terminal. Then, open the link provided by Gradio.
 
