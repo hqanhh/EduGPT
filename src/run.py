@@ -1,9 +1,7 @@
 import os
-import random
 import time
 
 import gradio as gr
-
 from generating_syllabus import generate_syllabus
 from teaching_agent import teaching_agent
 

@@ -5,16 +5,6 @@ from langchain import LLMChain, PromptTemplate
 from langchain.chains.base import Chain
 from langchain.chat_models import ChatOpenAI
 from langchain.llms import BaseLLM
-from langchain.prompts.chat import (
-    HumanMessagePromptTemplate,
-    SystemMessagePromptTemplate,
-)
-from langchain.schema import (
-    AIMessage,
-    BaseMessage,
-    HumanMessage,
-    SystemMessage,
-)
 from pydantic import BaseModel, Field
 
 # import your OpenAI key (put in your .env file)
